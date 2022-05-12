@@ -69,11 +69,11 @@ public class CustomerController : ControllerBase
         return Ok(model);
     }
 
-    [HttpDelete("{id}")]
+    [HttpDelete]
     [Route("[action]/{id}")]
-    public ActionResult DeleteById(int id)
+    public ActionResult DeleteCustomerById(int id)
     {
-        if (id != 1111)
+        if (id != 5551234)
         {
             return NotFound();
         }
