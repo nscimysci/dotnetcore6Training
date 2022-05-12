@@ -66,4 +66,32 @@ builder.Services.AddSwaggerGen(c =>
                 "/Views": "${workspaceFolder}/Views"
             }
 
-# Step 7 : Jwt
+
+# Step 7 : sln SOLUTION_FILE
+dotnet new classlib -o demo.gulf.repositories
+dotnet new classlib -o demo.gulf.business
+dotnet new classlib -o demo.gulf.model
+
+dotnet new sln -n demo
+dotnet sln demo.sln add demo.gulf.services/demo.gulf.services.csproj
+dotnet sln demo.sln add demo.gulf.repositories/demo.gulf.repositories.csproj
+dotnet sln demo.sln add demo.gulf.business/demo.gulf.business.csproj
+dotnet sln demo.sln add demo.gulf.model/demo.gulf.model.csproj
+
+dotnet add demo.gulf.business reference demo.gulf.repositories/demo.gulf.repositories.csproj
+dotnet add demo.gulf.business reference demo.gulf.model/demo.gulf.model.csproj
+dotnet add demo.gulf.repositories reference demo.gulf.model/demo.gulf.model.csproj
+
+dotnet add demo.gulf.services reference demo.gulf.model/demo.gulf.model.csproj
+dotnet add demo.gulf.services reference demo.gulf.business/demo.gulf.business.csproj
+dotnet add demo.gulf.services reference demo.gulf.repositories/demo.gulf.repositories.csproj
+
+# Step 8 : EntityFramworkCore demo.gulf.repositories
+
+dotnet add package Microsoft.EntityFrameworkCore --version 6.0.5
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.5
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.5
+dotnet add package Microsoft.EntityFrameworkCore.Tools --version 6.0.5
+
+
+dotnet ef dbcontext scaffold "Server=tcp:gulfazuredbserver.public.2b353710e0cd.database.windows.net,3342;Persist Security Info=False;User ID=ebiddingusrdev;Password=ebiddingusrdev@gu1f! ; MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30; Database=AZUREDB-EBIDDING-DEV; " Microsoft.EntityFrameworkCore.SqlServer -o entities --force
