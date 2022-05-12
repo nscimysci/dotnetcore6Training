@@ -87,6 +87,7 @@ dotnet add demo.gulf.services reference demo.gulf.business/demo.gulf.business.cs
 dotnet add demo.gulf.services reference demo.gulf.repositories/demo.gulf.repositories.csproj
 
 # Step 8 : EntityFramworkCore demo.gulf.repositories
+dotnet tool install --global dotnet-ef --version 6.0.5
 
 dotnet add package Microsoft.EntityFrameworkCore --version 6.0.5
 dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.5

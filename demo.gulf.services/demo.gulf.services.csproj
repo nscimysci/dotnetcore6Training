@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\demo.gulf.model\demo.gulf.model.csproj" />
+    <ProjectReference Include="..\demo.gulf.business\demo.gulf.business.csproj" />
+    <ProjectReference Include="..\demo.gulf.repositories\demo.gulf.repositories.csproj" />
+  </ItemGroup>
+
 </Project>

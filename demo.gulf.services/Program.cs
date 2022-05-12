@@ -1,4 +1,15 @@
+using demo.gulf.business.core;
+using demo.gulf.services;
+using Microsoft.EntityFrameworkCore;
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+// builder.Services.AddScoped<IMasterLogic, MasterLogic>();
+
+builder.Services.AddCors();
+
 
 // Add services to the container.
 
@@ -8,6 +19,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "Demo Gulf", Version = "v1" })
 );
+
 
 var app = builder.Build();
 
@@ -19,6 +31,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(c => c.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
 app.UseAuthorization();
 

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo.gulf.services", "demo.gulf.services\demo.gulf.services.csproj", "{86A905A1-9540-4D06-B385-8C47346106A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo.gulf.repositories", "demo.gulf.repositories\demo.gulf.repositories.csproj", "{378E167C-9E12-487C-A780-B58570C4B2A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo.gulf.business", "demo.gulf.business\demo.gulf.business.csproj", "{7020A3C7-495E-46B2-AD0A-617A41AB29FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo.gulf.model", "demo.gulf.model\demo.gulf.model.csproj", "{3BDE3DE3-C13D-43D5-B3A5-A52953A4609A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86A905A1-9540-4D06-B385-8C47346106A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A905A1-9540-4D06-B385-8C47346106A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A905A1-9540-4D06-B385-8C47346106A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A905A1-9540-4D06-B385-8C47346106A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{378E167C-9E12-487C-A780-B58570C4B2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378E167C-9E12-487C-A780-B58570C4B2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378E167C-9E12-487C-A780-B58570C4B2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378E167C-9E12-487C-A780-B58570C4B2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7020A3C7-495E-46B2-AD0A-617A41AB29FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7020A3C7-495E-46B2-AD0A-617A41AB29FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7020A3C7-495E-46B2-AD0A-617A41AB29FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7020A3C7-495E-46B2-AD0A-617A41AB29FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDE3DE3-C13D-43D5-B3A5-A52953A4609A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDE3DE3-C13D-43D5-B3A5-A52953A4609A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDE3DE3-C13D-43D5-B3A5-A52953A4609A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDE3DE3-C13D-43D5-B3A5-A52953A4609A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
