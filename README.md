@@ -94,4 +94,4 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.5
 dotnet add package Microsoft.EntityFrameworkCore.Tools --version 6.0.5
 
 
-dotnet ef dbcontext scaffold "Server=tcp:gulfazuredbserver.public.2b353710e0cd.database.windows.net,3342;Persist Security Info=False;User ID=ebiddingusrdev;Password=ebiddingusrdev@gu1f! ; MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30; Database=AZUREDB-EBIDDING-DEV; " Microsoft.EntityFrameworkCore.SqlServer -o entities --force
+dotnet ef dbcontext scaffold "Server=;Persist Security Info=False;User ID=;Password=; MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30; Database=; " Microsoft.EntityFrameworkCore.SqlServer -o entities --force
