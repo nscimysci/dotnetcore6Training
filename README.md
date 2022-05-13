@@ -96,3 +96,15 @@ dotnet add package Microsoft.EntityFrameworkCore.Tools --version 6.0.5
 
 
 dotnet ef dbcontext scaffold "Server=;Persist Security Info=False;User ID=;Password=; MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30; Database=; " Microsoft.EntityFrameworkCore.SqlServer -o entities --force
+
+
+# Step 9 : EntityFramworkCore demo.gulf.repositories
+https://github.com/MapsterMapper/Mapster
+
+dotnet add package Mapster --version 7.3.0
+
+-- Add
+var entiry = model.Adapt<MstCompany>();
+
+-- Update
+ model.Adapt(entity);
