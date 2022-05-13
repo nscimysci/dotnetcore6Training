@@ -16,70 +16,70 @@ namespace training.gulf.services.entities
         {
         }
 
-        public virtual DbSet<AggregatedCounter> AggregatedCounters { get; set; }
-        public virtual DbSet<Counter> Counters { get; set; }
-        public virtual DbSet<Hash> Hashes { get; set; }
-        public virtual DbSet<Job> Jobs { get; set; }
-        public virtual DbSet<JobParameter> JobParameters { get; set; }
-        public virtual DbSet<JobQueue> JobQueues { get; set; }
-        public virtual DbSet<List> Lists { get; set; }
-        public virtual DbSet<MstAttachmentType> MstAttachmentTypes { get; set; }
-        public virtual DbSet<MstCategory> MstCategories { get; set; }
-        public virtual DbSet<MstCommercialPrefix> MstCommercialPrefixes { get; set; }
-        public virtual DbSet<MstCommercialType> MstCommercialTypes { get; set; }
-        public virtual DbSet<MstCompany> MstCompanies { get; set; }
-        public virtual DbSet<MstConfiguration> MstConfigurations { get; set; }
-        public virtual DbSet<MstCountry> MstCountries { get; set; }
-        public virtual DbSet<MstDepartment> MstDepartments { get; set; }
-        public virtual DbSet<MstExchangRate> MstExchangRates { get; set; }
-        public virtual DbSet<MstIncoTerm> MstIncoTerms { get; set; }
-        public virtual DbSet<MstProcurementDepartment> MstProcurementDepartments { get; set; }
-        public virtual DbSet<MstProjectWeight> MstProjectWeights { get; set; }
-        public virtual DbSet<MstProvince> MstProvinces { get; set; }
-        public virtual DbSet<MstPurchasingGroup> MstPurchasingGroups { get; set; }
-        public virtual DbSet<MstRouteApproval> MstRouteApprovals { get; set; }
-        public virtual DbSet<MstRouteProjectApproval> MstRouteProjectApprovals { get; set; }
-        public virtual DbSet<MstSerwayForm> MstSerwayForms { get; set; }
-        public virtual DbSet<MstSerwayList> MstSerwayLists { get; set; }
-        public virtual DbSet<MstSubCategory> MstSubCategories { get; set; }
-        public virtual DbSet<MstUnitOfMeasure> MstUnitOfMeasures { get; set; }
-        public virtual DbSet<MstUser> MstUsers { get; set; }
-        public virtual DbSet<MstUserCommittee> MstUserCommittees { get; set; }
-        public virtual DbSet<MstVendorCriterion> MstVendorCriteria { get; set; }
-        public virtual DbSet<Schema> Schemas { get; set; }
-        public virtual DbSet<Server> Servers { get; set; }
-        public virtual DbSet<Set> Sets { get; set; }
-        public virtual DbSet<State> States { get; set; }
-        public virtual DbSet<TrnActionHistory> TrnActionHistories { get; set; }
-        public virtual DbSet<TrnAttachment> TrnAttachments { get; set; }
-        public virtual DbSet<TrnAuditLog> TrnAuditLogs { get; set; }
-        public virtual DbSet<TrnProject> TrnProjects { get; set; }
-        public virtual DbSet<TrnProjectApprover> TrnProjectApprovers { get; set; }
-        public virtual DbSet<TrnProjectAttachment> TrnProjectAttachments { get; set; }
-        public virtual DbSet<TrnProjectAttachmentOther> TrnProjectAttachmentOthers { get; set; }
-        public virtual DbSet<TrnProjectAttachmentPreQualification> TrnProjectAttachmentPreQualifications { get; set; }
-        public virtual DbSet<TrnProjectCommittee> TrnProjectCommittees { get; set; }
-        public virtual DbSet<TrnProjectItemTemplate> TrnProjectItemTemplates { get; set; }
-        public virtual DbSet<TrnProjectQa> TrnProjectQas { get; set; }
-        public virtual DbSet<TrnProjectSelectVendor> TrnProjectSelectVendors { get; set; }
-        public virtual DbSet<TrnProjectSelectVendorAttachment> TrnProjectSelectVendorAttachments { get; set; }
-        public virtual DbSet<TrnProjectVendorCriterion> TrnProjectVendorCriteria { get; set; }
-        public virtual DbSet<TrnProjectVendorSubmitAttachment> TrnProjectVendorSubmitAttachments { get; set; }
-        public virtual DbSet<TrnProjectVendorSubmitItem> TrnProjectVendorSubmitItems { get; set; }
-        public virtual DbSet<TrnProjectWeight> TrnProjectWeights { get; set; }
-        public virtual DbSet<TrnSerwayD> TrnSerwayDs { get; set; }
-        public virtual DbSet<TrnSerwayH> TrnSerwayHs { get; set; }
-        public virtual DbSet<TrnSuportToken> TrnSuportTokens { get; set; }
-        public virtual DbSet<TrnTmpVendorAccount> TrnTmpVendorAccounts { get; set; }
-        public virtual DbSet<TrnTmpVendorAttachment> TrnTmpVendorAttachments { get; set; }
-        public virtual DbSet<TrnTmpVendorCategory> TrnTmpVendorCategories { get; set; }
-        public virtual DbSet<TrnTmpVendorInfo> TrnTmpVendorInfos { get; set; }
-        public virtual DbSet<TrnTmpVendorLocation> TrnTmpVendorLocations { get; set; }
-        public virtual DbSet<TrnVendorAccount> TrnVendorAccounts { get; set; }
-        public virtual DbSet<TrnVendorAttachment> TrnVendorAttachments { get; set; }
-        public virtual DbSet<TrnVendorCategory> TrnVendorCategories { get; set; }
-        public virtual DbSet<TrnVendorInfo> TrnVendorInfos { get; set; }
-        public virtual DbSet<TrnVendorLocation> TrnVendorLocations { get; set; }
+        public virtual DbSet<AggregatedCounter> AggregatedCounters { get; set; } = null!;
+        public virtual DbSet<Counter> Counters { get; set; } = null!;
+        public virtual DbSet<Hash> Hashes { get; set; } = null!;
+        public virtual DbSet<Job> Jobs { get; set; } = null!;
+        public virtual DbSet<JobParameter> JobParameters { get; set; } = null!;
+        public virtual DbSet<JobQueue> JobQueues { get; set; } = null!;
+        public virtual DbSet<List> Lists { get; set; } = null!;
+        public virtual DbSet<MstAttachmentType> MstAttachmentTypes { get; set; } = null!;
+        public virtual DbSet<MstCategory> MstCategories { get; set; } = null!;
+        public virtual DbSet<MstCommercialPrefix> MstCommercialPrefixes { get; set; } = null!;
+        public virtual DbSet<MstCommercialType> MstCommercialTypes { get; set; } = null!;
+        public virtual DbSet<MstCompany> MstCompanies { get; set; } = null!;
+        public virtual DbSet<MstConfiguration> MstConfigurations { get; set; } = null!;
+        public virtual DbSet<MstCountry> MstCountries { get; set; } = null!;
+        public virtual DbSet<MstDepartment> MstDepartments { get; set; } = null!;
+        public virtual DbSet<MstExchangRate> MstExchangRates { get; set; } = null!;
+        public virtual DbSet<MstIncoTerm> MstIncoTerms { get; set; } = null!;
+        public virtual DbSet<MstProcurementDepartment> MstProcurementDepartments { get; set; } = null!;
+        public virtual DbSet<MstProjectWeight> MstProjectWeights { get; set; } = null!;
+        public virtual DbSet<MstProvince> MstProvinces { get; set; } = null!;
+        public virtual DbSet<MstPurchasingGroup> MstPurchasingGroups { get; set; } = null!;
+        public virtual DbSet<MstRouteApproval> MstRouteApprovals { get; set; } = null!;
+        public virtual DbSet<MstRouteProjectApproval> MstRouteProjectApprovals { get; set; } = null!;
+        public virtual DbSet<MstSerwayForm> MstSerwayForms { get; set; } = null!;
+        public virtual DbSet<MstSerwayList> MstSerwayLists { get; set; } = null!;
+        public virtual DbSet<MstSubCategory> MstSubCategories { get; set; } = null!;
+        public virtual DbSet<MstUnitOfMeasure> MstUnitOfMeasures { get; set; } = null!;
+        public virtual DbSet<MstUser> MstUsers { get; set; } = null!;
+        public virtual DbSet<MstUserCommittee> MstUserCommittees { get; set; } = null!;
+        public virtual DbSet<MstVendorCriterion> MstVendorCriteria { get; set; } = null!;
+        public virtual DbSet<Schema> Schemas { get; set; } = null!;
+        public virtual DbSet<Server> Servers { get; set; } = null!;
+        public virtual DbSet<Set> Sets { get; set; } = null!;
+        public virtual DbSet<State> States { get; set; } = null!;
+        public virtual DbSet<TrnActionHistory> TrnActionHistories { get; set; } = null!;
+        public virtual DbSet<TrnAttachment> TrnAttachments { get; set; } = null!;
+        public virtual DbSet<TrnAuditLog> TrnAuditLogs { get; set; } = null!;
+        public virtual DbSet<TrnProject> TrnProjects { get; set; } = null!;
+        public virtual DbSet<TrnProjectApprover> TrnProjectApprovers { get; set; } = null!;
+        public virtual DbSet<TrnProjectAttachment> TrnProjectAttachments { get; set; } = null!;
+        public virtual DbSet<TrnProjectAttachmentOther> TrnProjectAttachmentOthers { get; set; } = null!;
+        public virtual DbSet<TrnProjectAttachmentPreQualification> TrnProjectAttachmentPreQualifications { get; set; } = null!;
+        public virtual DbSet<TrnProjectCommittee> TrnProjectCommittees { get; set; } = null!;
+        public virtual DbSet<TrnProjectItemTemplate> TrnProjectItemTemplates { get; set; } = null!;
+        public virtual DbSet<TrnProjectQa> TrnProjectQas { get; set; } = null!;
+        public virtual DbSet<TrnProjectSelectVendor> TrnProjectSelectVendors { get; set; } = null!;
+        public virtual DbSet<TrnProjectSelectVendorAttachment> TrnProjectSelectVendorAttachments { get; set; } = null!;
+        public virtual DbSet<TrnProjectVendorCriterion> TrnProjectVendorCriteria { get; set; } = null!;
+        public virtual DbSet<TrnProjectVendorSubmitAttachment> TrnProjectVendorSubmitAttachments { get; set; } = null!;
+        public virtual DbSet<TrnProjectVendorSubmitItem> TrnProjectVendorSubmitItems { get; set; } = null!;
+        public virtual DbSet<TrnProjectWeight> TrnProjectWeights { get; set; } = null!;
+        public virtual DbSet<TrnSerwayD> TrnSerwayDs { get; set; } = null!;
+        public virtual DbSet<TrnSerwayH> TrnSerwayHs { get; set; } = null!;
+        public virtual DbSet<TrnSuportToken> TrnSuportTokens { get; set; } = null!;
+        public virtual DbSet<TrnTmpVendorAccount> TrnTmpVendorAccounts { get; set; } = null!;
+        public virtual DbSet<TrnTmpVendorAttachment> TrnTmpVendorAttachments { get; set; } = null!;
+        public virtual DbSet<TrnTmpVendorCategory> TrnTmpVendorCategories { get; set; } = null!;
+        public virtual DbSet<TrnTmpVendorInfo> TrnTmpVendorInfos { get; set; } = null!;
+        public virtual DbSet<TrnTmpVendorLocation> TrnTmpVendorLocations { get; set; } = null!;
+        public virtual DbSet<TrnVendorAccount> TrnVendorAccounts { get; set; } = null!;
+        public virtual DbSet<TrnVendorAttachment> TrnVendorAttachments { get; set; } = null!;
+        public virtual DbSet<TrnVendorCategory> TrnVendorCategories { get; set; } = null!;
+        public virtual DbSet<TrnVendorInfo> TrnVendorInfos { get; set; } = null!;
+        public virtual DbSet<TrnVendorLocation> TrnVendorLocations { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -118,9 +118,7 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.ExpireAt).HasColumnType("datetime");
 
-                entity.Property(e => e.Key)
-                    .IsRequired()
-                    .HasMaxLength(100);
+                entity.Property(e => e.Key).HasMaxLength(100);
             });
 
             modelBuilder.Entity<Hash>(entity =>
@@ -148,13 +146,9 @@ namespace training.gulf.services.entities
                 entity.HasIndex(e => e.StateName, "IX_HangFire_Job_StateName")
                     .HasFilter("([StateName] IS NOT NULL)");
 
-                entity.Property(e => e.Arguments).IsRequired();
-
                 entity.Property(e => e.CreatedAt).HasColumnType("datetime");
 
                 entity.Property(e => e.ExpireAt).HasColumnType("datetime");
-
-                entity.Property(e => e.InvocationData).IsRequired();
 
                 entity.Property(e => e.StateName).HasMaxLength(20);
             });
@@ -214,7 +208,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.AttachmentTypeId).HasColumnName("AttachmentTypeID");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -227,7 +220,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
 
                 entity.Property(e => e.Name)
-                    .IsRequired()
                     .HasMaxLength(500)
                     .IsUnicode(false);
             });
@@ -238,9 +230,7 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.Id).HasColumnName("ID");
 
-                entity.Property(e => e.CategoryName)
-                    .IsRequired()
-                    .HasMaxLength(50);
+                entity.Property(e => e.CategoryName).HasMaxLength(50);
 
                 entity.Property(e => e.CreatedDate).HasColumnType("datetime");
 
@@ -284,16 +274,11 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.CompanyId).HasColumnName("CompanyID");
 
-                entity.Property(e => e.CompanyFullName)
-                    .IsRequired()
-                    .HasMaxLength(50);
+                entity.Property(e => e.CompanyFullName).HasMaxLength(50);
 
-                entity.Property(e => e.CompanyName)
-                    .IsRequired()
-                    .HasMaxLength(20);
+                entity.Property(e => e.CompanyName).HasMaxLength(20);
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -315,17 +300,14 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.ConId).HasColumnName("ConID");
 
                 entity.Property(e => e.ConKey)
-                    .IsRequired()
                     .HasMaxLength(100)
                     .IsUnicode(false);
 
                 entity.Property(e => e.ConValue)
-                    .IsRequired()
                     .HasMaxLength(500)
                     .IsUnicode(false);
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -350,9 +332,7 @@ namespace training.gulf.services.entities
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.CountryName)
-                    .IsRequired()
-                    .HasMaxLength(50);
+                entity.Property(e => e.CountryName).HasMaxLength(50);
 
                 entity.Property(e => e.CreateBy)
                     .HasMaxLength(200)
@@ -381,15 +361,12 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.CompanyId).HasColumnName("CompanyID");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
                 entity.Property(e => e.CreateDate).HasColumnType("datetime");
 
-                entity.Property(e => e.DepartmentName)
-                    .IsRequired()
-                    .HasMaxLength(100);
+                entity.Property(e => e.DepartmentName).HasMaxLength(100);
 
                 entity.Property(e => e.ModifiedBy)
                     .HasMaxLength(200)
@@ -409,7 +386,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.ExchOrderBy).HasDefaultValueSql("((9999))");
 
                 entity.Property(e => e.Exchange)
-                    .IsRequired()
                     .HasMaxLength(5)
                     .IsUnicode(false);
 
@@ -423,12 +399,10 @@ namespace training.gulf.services.entities
                 entity.ToTable("MST_IncoTerm");
 
                 entity.Property(e => e.Code)
-                    .IsRequired()
                     .HasMaxLength(10)
                     .IsUnicode(false);
 
                 entity.Property(e => e.Name)
-                    .IsRequired()
                     .HasMaxLength(300)
                     .IsUnicode(false);
             });
@@ -441,14 +415,11 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.CreatedDate).HasColumnType("datetime");
 
-                entity.Property(e => e.DepartmentName)
-                    .IsRequired()
-                    .HasMaxLength(200);
+                entity.Property(e => e.DepartmentName).HasMaxLength(200);
 
                 entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
 
                 entity.Property(e => e.PrefixProjcetCode)
-                    .IsRequired()
                     .HasMaxLength(10)
                     .IsUnicode(false);
             });
@@ -462,7 +433,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.WeightId).HasColumnName("WeightID");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -475,7 +445,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
 
                 entity.Property(e => e.Name)
-                    .IsRequired()
                     .HasMaxLength(500)
                     .IsUnicode(false);
             });
@@ -488,9 +457,7 @@ namespace training.gulf.services.entities
                     .ValueGeneratedNever()
                     .HasColumnName("ID");
 
-                entity.Property(e => e.ProvinceName)
-                    .IsRequired()
-                    .HasMaxLength(500);
+                entity.Property(e => e.ProvinceName).HasMaxLength(500);
             });
 
             modelBuilder.Entity<MstPurchasingGroup>(entity =>
@@ -498,7 +465,6 @@ namespace training.gulf.services.entities
                 entity.ToTable("MST_PurchasingGroup");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -511,7 +477,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
 
                 entity.Property(e => e.Name)
-                    .IsRequired()
                     .HasMaxLength(500)
                     .IsUnicode(false);
             });
@@ -524,9 +489,7 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.CreatedDate).HasColumnType("datetime");
 
-                entity.Property(e => e.DepartmentName)
-                    .IsRequired()
-                    .HasMaxLength(50);
+                entity.Property(e => e.DepartmentName).HasMaxLength(50);
 
                 entity.Property(e => e.Level1).HasMaxLength(50);
 
@@ -534,9 +497,7 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
 
-                entity.Property(e => e.ModuleName)
-                    .IsRequired()
-                    .HasMaxLength(10);
+                entity.Property(e => e.ModuleName).HasMaxLength(10);
             });
 
             modelBuilder.Entity<MstRouteProjectApproval>(entity =>
@@ -557,7 +518,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.BudgetMin).HasColumnType("decimal(18, 2)");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -646,9 +606,7 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
 
-                entity.Property(e => e.SubCategoryName)
-                    .IsRequired()
-                    .HasMaxLength(50);
+                entity.Property(e => e.SubCategoryName).HasMaxLength(50);
             });
 
             modelBuilder.Entity<MstUnitOfMeasure>(entity =>
@@ -660,7 +618,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.UnitOfMeasureId).HasColumnName("UnitOfMeasureID");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -673,7 +630,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
 
                 entity.Property(e => e.Name)
-                    .IsRequired()
                     .HasMaxLength(500)
                     .IsUnicode(false);
             });
@@ -686,9 +642,7 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.CreatedDate).HasColumnType("datetime");
 
-                entity.Property(e => e.FullName)
-                    .IsRequired()
-                    .HasMaxLength(50);
+                entity.Property(e => e.FullName).HasMaxLength(50);
 
                 entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
 
@@ -698,9 +652,7 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.Status).HasMaxLength(10);
 
-                entity.Property(e => e.UserName)
-                    .IsRequired()
-                    .HasMaxLength(30);
+                entity.Property(e => e.UserName).HasMaxLength(30);
             });
 
             modelBuilder.Entity<MstUserCommittee>(entity =>
@@ -711,9 +663,7 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.CreatedDate).HasColumnType("datetime");
 
-                entity.Property(e => e.FullName)
-                    .IsRequired()
-                    .HasMaxLength(50);
+                entity.Property(e => e.FullName).HasMaxLength(50);
 
                 entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
 
@@ -721,9 +671,7 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.Status).HasMaxLength(10);
 
-                entity.Property(e => e.UserName)
-                    .IsRequired()
-                    .HasMaxLength(30);
+                entity.Property(e => e.UserName).HasMaxLength(30);
             });
 
             modelBuilder.Entity<MstVendorCriterion>(entity =>
@@ -735,7 +683,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.VendorCriterialId).HasColumnName("VendorCriterialID");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -752,7 +699,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
 
                 entity.Property(e => e.Name)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -765,7 +711,6 @@ namespace training.gulf.services.entities
                     .IsUnicode(false);
 
                 entity.Property(e => e.Unit)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
             });
@@ -821,9 +766,7 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.CreatedAt).HasColumnType("datetime");
 
-                entity.Property(e => e.Name)
-                    .IsRequired()
-                    .HasMaxLength(20);
+                entity.Property(e => e.Name).HasMaxLength(20);
 
                 entity.Property(e => e.Reason).HasMaxLength(100);
 
@@ -843,15 +786,11 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.ActionDate).HasColumnType("datetime");
 
-                entity.Property(e => e.EventName)
-                    .IsRequired()
-                    .HasMaxLength(50);
+                entity.Property(e => e.EventName).HasMaxLength(50);
 
                 entity.Property(e => e.Message).HasColumnType("ntext");
 
-                entity.Property(e => e.ModuleName)
-                    .IsRequired()
-                    .HasMaxLength(10);
+                entity.Property(e => e.ModuleName).HasMaxLength(10);
 
                 entity.Property(e => e.ProcessId).HasColumnName("ProcessID");
             });
@@ -868,19 +807,13 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.ExpireDate).HasColumnType("datetime");
 
-                entity.Property(e => e.FileName)
-                    .IsRequired()
-                    .HasMaxLength(10);
+                entity.Property(e => e.FileName).HasMaxLength(10);
 
-                entity.Property(e => e.FilePath)
-                    .IsRequired()
-                    .HasMaxLength(100);
+                entity.Property(e => e.FilePath).HasMaxLength(100);
 
                 entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
 
-                entity.Property(e => e.Module)
-                    .IsRequired()
-                    .HasMaxLength(20);
+                entity.Property(e => e.Module).HasMaxLength(20);
 
                 entity.Property(e => e.ProjectId).HasColumnName("ProjectID");
 
@@ -941,21 +874,18 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.CompanyId).HasColumnName("CompanyID");
 
                 entity.Property(e => e.ContactAddressEmployer)
-                    .IsRequired()
                     .HasMaxLength(500)
                     .IsUnicode(false);
 
                 entity.Property(e => e.ContactPointId).HasColumnName("ContactPointID");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
                 entity.Property(e => e.CreateDate).HasColumnType("datetime");
 
                 entity.Property(e => e.DepartmentRequest)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -986,7 +916,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.NegotiationEnddate6).HasColumnType("datetime");
 
                 entity.Property(e => e.Phone)
-                    .IsRequired()
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
@@ -995,7 +924,6 @@ namespace training.gulf.services.entities
                     .IsUnicode(false);
 
                 entity.Property(e => e.ProcurementTeam)
-                    .IsRequired()
                     .HasMaxLength(3)
                     .IsUnicode(false);
 
@@ -1004,14 +932,12 @@ namespace training.gulf.services.entities
                     .IsUnicode(false);
 
                 entity.Property(e => e.ProjectDescription)
-                    .IsRequired()
                     .HasMaxLength(500)
                     .IsUnicode(false);
 
                 entity.Property(e => e.ProjectOwnerId).HasColumnName("ProjectOwnerID");
 
                 entity.Property(e => e.ProjectStatus)
-                    .IsRequired()
                     .HasMaxLength(30)
                     .IsUnicode(false);
 
@@ -1029,14 +955,12 @@ namespace training.gulf.services.entities
                     .IsUnicode(false);
 
                 entity.Property(e => e.RequesterEmail)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
                 entity.Property(e => e.StartDate).HasColumnType("datetime");
 
                 entity.Property(e => e.Subject)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
             });
@@ -1088,7 +1012,6 @@ namespace training.gulf.services.entities
                     .HasColumnName("AttachmentID");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -1101,7 +1024,6 @@ namespace training.gulf.services.entities
                     .IsUnicode(false);
 
                 entity.Property(e => e.FileName)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -1133,7 +1055,6 @@ namespace training.gulf.services.entities
                     .HasColumnName("AttachmentID");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -1142,12 +1063,10 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.Description).HasColumnType("text");
 
                 entity.Property(e => e.FileFullName)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
                 entity.Property(e => e.FileName)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -1178,7 +1097,6 @@ namespace training.gulf.services.entities
                     .HasColumnName("AttachmentID");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -1191,7 +1109,6 @@ namespace training.gulf.services.entities
                     .IsUnicode(false);
 
                 entity.Property(e => e.FileName)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -1249,7 +1166,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.CompanyId).HasColumnName("CompanyID");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -1272,7 +1188,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.Quantity).HasColumnType("decimal(18, 2)");
 
                 entity.Property(e => e.ShortDescription)
-                    .IsRequired()
                     .HasMaxLength(40)
                     .IsUnicode(false);
 
@@ -1296,12 +1211,10 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.ProjectId).HasColumnName("ProjectID");
 
                 entity.Property(e => e.Answer)
-                    .IsRequired()
                     .HasMaxLength(500)
                     .IsUnicode(false);
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -1314,7 +1227,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
 
                 entity.Property(e => e.Question)
-                    .IsRequired()
                     .HasMaxLength(500)
                     .IsUnicode(false);
 
@@ -1348,7 +1260,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.CalculatedScore).HasColumnType("decimal(18, 2)");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -1412,7 +1323,6 @@ namespace training.gulf.services.entities
                     .IsUnicode(false);
 
                 entity.Property(e => e.SelectedType)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -1447,7 +1357,6 @@ namespace training.gulf.services.entities
                     .HasColumnName("AttachFilePOName");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -1481,19 +1390,16 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.CategoryId).HasColumnName("CategoryID");
 
                 entity.Property(e => e.Condition)
-                    .IsRequired()
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
                 entity.Property(e => e.CreateDate).HasColumnType("datetime");
 
                 entity.Property(e => e.CriteriaRequired)
-                    .IsRequired()
                     .HasMaxLength(10)
                     .IsUnicode(false);
 
@@ -1605,7 +1511,6 @@ namespace training.gulf.services.entities
                     .HasColumnName("AttachFileTORName");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -1690,7 +1595,6 @@ namespace training.gulf.services.entities
                     .IsUnicode(false);
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -1757,7 +1661,6 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.WeightId).HasColumnName("WeightID");
 
                 entity.Property(e => e.CreateBy)
-                    .IsRequired()
                     .HasMaxLength(200)
                     .IsUnicode(false);
 
@@ -1871,7 +1774,6 @@ namespace training.gulf.services.entities
                     .IsUnicode(false);
 
                 entity.Property(e => e.Tokenstring)
-                    .IsRequired()
                     .HasMaxLength(2000)
                     .IsUnicode(false);
 
@@ -1894,20 +1796,16 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.LastestLogin).HasColumnType("datetime");
 
                 entity.Property(e => e.PasswordHash)
-                    .IsRequired()
                     .HasMaxLength(64)
                     .IsFixedLength();
 
                 entity.Property(e => e.PasswordSalt)
-                    .IsRequired()
                     .HasMaxLength(128)
                     .IsFixedLength();
 
                 entity.Property(e => e.Status).HasMaxLength(20);
 
-                entity.Property(e => e.UserName)
-                    .IsRequired()
-                    .HasMaxLength(50);
+                entity.Property(e => e.UserName).HasMaxLength(50);
             });
 
             modelBuilder.Entity<TrnTmpVendorAttachment>(entity =>
@@ -1929,17 +1827,13 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.FileName).HasMaxLength(100);
 
-                entity.Property(e => e.FilePath)
-                    .IsRequired()
-                    .HasMaxLength(100);
+                entity.Property(e => e.FilePath).HasMaxLength(100);
 
                 entity.Property(e => e.Id).HasColumnName("ID");
 
                 entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
 
-                entity.Property(e => e.UserName)
-                    .IsRequired()
-                    .HasMaxLength(50);
+                entity.Property(e => e.UserName).HasMaxLength(50);
 
                 entity.Property(e => e.VendorId).HasColumnName("VendorID");
             });
@@ -2137,20 +2031,16 @@ namespace training.gulf.services.entities
                 entity.Property(e => e.LastestLogin).HasColumnType("datetime");
 
                 entity.Property(e => e.PasswordHash)
-                    .IsRequired()
                     .HasMaxLength(64)
                     .IsFixedLength();
 
                 entity.Property(e => e.PasswordSalt)
-                    .IsRequired()
                     .HasMaxLength(128)
                     .IsFixedLength();
 
                 entity.Property(e => e.Status).HasMaxLength(20);
 
-                entity.Property(e => e.UserName)
-                    .IsRequired()
-                    .HasMaxLength(50);
+                entity.Property(e => e.UserName).HasMaxLength(50);
             });
 
             modelBuilder.Entity<TrnVendorAttachment>(entity =>
@@ -2169,15 +2059,11 @@ namespace training.gulf.services.entities
 
                 entity.Property(e => e.FileName).HasMaxLength(100);
 
-                entity.Property(e => e.FilePath)
-                    .IsRequired()
-                    .HasMaxLength(100);
+                entity.Property(e => e.FilePath).HasMaxLength(100);
 
                 entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
 
-                entity.Property(e => e.UserName)
-                    .IsRequired()
-                    .HasMaxLength(50);
+                entity.Property(e => e.UserName).HasMaxLength(50);
 
                 entity.Property(e => e.VendorId).HasColumnName("VendorID");
             });

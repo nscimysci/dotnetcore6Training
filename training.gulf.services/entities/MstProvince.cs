@@ -6,7 +6,7 @@ namespace training.gulf.services.entities
     public partial class MstProvince
     {
         public int Id { get; set; }
-        public string ProvinceName { get; set; }
+        public string ProvinceName { get; set; } = null!;
         public bool IsActive { get; set; }
     }
 }

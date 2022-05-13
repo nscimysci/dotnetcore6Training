@@ -6,10 +6,10 @@ namespace training.gulf.services.entities
     public partial class MstUser
     {
         public int Id { get; set; }
-        public string UserName { get; set; }
-        public string FullName { get; set; }
-        public string Status { get; set; }
-        public string Role { get; set; }
+        public string UserName { get; set; } = null!;
+        public string FullName { get; set; } = null!;
+        public string? Status { get; set; }
+        public string? Role { get; set; }
         public bool? IsActive { get; set; }
         public DateTime? CreatedDate { get; set; }
         public DateTime? ModifiedDate { get; set; }

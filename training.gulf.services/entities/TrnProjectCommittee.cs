@@ -8,12 +8,12 @@ namespace training.gulf.services.entities
         public int ProjectId { get; set; }
         public int? Seq { get; set; }
         public int CommitteeId { get; set; }
-        public string CommitteeName { get; set; }
-        public string CommitteeEmail { get; set; }
+        public string? CommitteeName { get; set; }
+        public string? CommitteeEmail { get; set; }
         public bool? IsAttend { get; set; }
         public DateTime? CreateDate { get; set; }
-        public string CreateBy { get; set; }
+        public string? CreateBy { get; set; }
         public DateTime? ModifiedDate { get; set; }
-        public string ModifiedBy { get; set; }
+        public string? ModifiedBy { get; set; }
     }
 }

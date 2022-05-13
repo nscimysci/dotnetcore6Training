@@ -7,7 +7,7 @@ namespace training.gulf.services.entities
     {
         public int Id { get; set; }
         public long JobId { get; set; }
-        public string Queue { get; set; }
+        public string Queue { get; set; } = null!;
         public DateTime? FetchedAt { get; set; }
     }
 }

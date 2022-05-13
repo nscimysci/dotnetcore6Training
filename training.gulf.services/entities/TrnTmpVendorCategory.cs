@@ -12,7 +12,7 @@ namespace training.gulf.services.entities
         public bool? IsActive { get; set; }
         public DateTime? CreatedDate { get; set; }
         public DateTime? ModifiedDate { get; set; }
-        public string UserName { get; set; }
+        public string? UserName { get; set; }
         public int TmpHistoryId { get; set; }
         public int Idtmp { get; set; }
     }

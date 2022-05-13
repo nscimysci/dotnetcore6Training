@@ -6,7 +6,7 @@ namespace training.gulf.services.entities
     public partial class MstCommercialPrefix
     {
         public int Id { get; set; }
-        public string CommercialPrefixName { get; set; }
+        public string? CommercialPrefixName { get; set; }
         public bool? IsActive { get; set; }
         public DateTime? CreatedDate { get; set; }
         public DateTime? ModifiedDate { get; set; }
