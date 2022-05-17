@@ -1,0 +1,12 @@
+D:\Git\dotnetcore6Training\demo.gulf.model\bin\Debug\net6.0\demo.gulf.model.deps.json
+D:\Git\dotnetcore6Training\demo.gulf.model\bin\Debug\net6.0\demo.gulf.model.dll
+D:\Git\dotnetcore6Training\demo.gulf.model\bin\Debug\net6.0\demo.gulf.model.pdb
+D:\Git\dotnetcore6Training\demo.gulf.model\obj\Debug\net6.0\demo.gulf.model.csproj.AssemblyReference.cache
+D:\Git\dotnetcore6Training\demo.gulf.model\obj\Debug\net6.0\demo.gulf.model.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\dotnetcore6Training\demo.gulf.model\obj\Debug\net6.0\demo.gulf.model.AssemblyInfoInputs.cache
+D:\Git\dotnetcore6Training\demo.gulf.model\obj\Debug\net6.0\demo.gulf.model.AssemblyInfo.cs
+D:\Git\dotnetcore6Training\demo.gulf.model\obj\Debug\net6.0\demo.gulf.model.csproj.CoreCompileInputs.cache
+D:\Git\dotnetcore6Training\demo.gulf.model\obj\Debug\net6.0\demo.gulf.model.dll
+D:\Git\dotnetcore6Training\demo.gulf.model\obj\Debug\net6.0\refint\demo.gulf.model.dll
+D:\Git\dotnetcore6Training\demo.gulf.model\obj\Debug\net6.0\demo.gulf.model.pdb
+D:\Git\dotnetcore6Training\demo.gulf.model\obj\Debug\net6.0\ref\demo.gulf.model.dll

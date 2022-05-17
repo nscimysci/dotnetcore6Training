@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace trainingSplitProject.gulf.repositories.entities
+{
+    public partial class TrnProjectItemTemplate
+    {
+        public int ProjectItemTemplateId { get; set; }
+        public int ProjectId { get; set; }
+        public int CompanyId { get; set; }
+        public int Seq { get; set; }
+        public string ShortDescription { get; set; } = null!;
+        public string? LongDescription { get; set; }
+        public decimal Quantity { get; set; }
+        public int UnitOfMeasureId { get; set; }
+        public decimal? UnitPrice { get; set; }
+        public decimal? TotalAmount { get; set; }
+        public int ItemPeriod { get; set; }
+        public DateTime CreateDate { get; set; }
+        public string CreateBy { get; set; } = null!;
+        public DateTime? ModifiedDate { get; set; }
+        public string? ModifiedBy { get; set; }
+        public bool IsActive { get; set; }
+    }
+}

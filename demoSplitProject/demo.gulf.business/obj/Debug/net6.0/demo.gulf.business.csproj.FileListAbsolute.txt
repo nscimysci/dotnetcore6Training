@@ -1,0 +1,17 @@
+D:\Git\dotnetcore6Training\demo.gulf.business\obj\Debug\net6.0\demo.gulf.business.csproj.AssemblyReference.cache
+D:\Git\dotnetcore6Training\demo.gulf.business\obj\Debug\net6.0\demo.gulf.business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\dotnetcore6Training\demo.gulf.business\obj\Debug\net6.0\demo.gulf.business.AssemblyInfoInputs.cache
+D:\Git\dotnetcore6Training\demo.gulf.business\obj\Debug\net6.0\demo.gulf.business.AssemblyInfo.cs
+D:\Git\dotnetcore6Training\demo.gulf.business\obj\Debug\net6.0\demo.gulf.business.csproj.CoreCompileInputs.cache
+D:\Git\dotnetcore6Training\demo.gulf.business\bin\Debug\net6.0\demo.gulf.business.deps.json
+D:\Git\dotnetcore6Training\demo.gulf.business\bin\Debug\net6.0\demo.gulf.business.dll
+D:\Git\dotnetcore6Training\demo.gulf.business\bin\Debug\net6.0\demo.gulf.business.pdb
+D:\Git\dotnetcore6Training\demo.gulf.business\bin\Debug\net6.0\demo.gulf.model.dll
+D:\Git\dotnetcore6Training\demo.gulf.business\bin\Debug\net6.0\demo.gulf.repositories.dll
+D:\Git\dotnetcore6Training\demo.gulf.business\bin\Debug\net6.0\demo.gulf.repositories.pdb
+D:\Git\dotnetcore6Training\demo.gulf.business\bin\Debug\net6.0\demo.gulf.model.pdb
+D:\Git\dotnetcore6Training\demo.gulf.business\obj\Debug\net6.0\demo.gulf.business.csproj.CopyComplete
+D:\Git\dotnetcore6Training\demo.gulf.business\obj\Debug\net6.0\demo.gulf.business.dll
+D:\Git\dotnetcore6Training\demo.gulf.business\obj\Debug\net6.0\refint\demo.gulf.business.dll
+D:\Git\dotnetcore6Training\demo.gulf.business\obj\Debug\net6.0\demo.gulf.business.pdb
+D:\Git\dotnetcore6Training\demo.gulf.business\obj\Debug\net6.0\ref\demo.gulf.business.dll

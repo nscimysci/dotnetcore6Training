@@ -111,3 +111,8 @@ var entiry = model.Adapt<MstCompany>();
 
 
 # Step 10 : Jwt Token
+
+dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer --version 6.0.5
+
+
+# Step 10 : CORD
